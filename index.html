@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinesh Sai — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">DS</span>
+      <div class="logo-dot"></div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#" class="btn-resume" download>
+        <i class="fas fa-download"></i> Resume
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-greeting">Hi, I'm</span>
+        <span class="hero-name">Dinesh Sai</span>
+      </h1>
+
+      <div class="hero-typewriter">
+        <span class="typewriter-prefix">I build </span>
+        <span class="typewriter-text" id="typewriter"></span>
+        <span class="typewriter-cursor">|</span>
+      </div>
+
+      <p class="hero-description">
+        A passionate Web Developer & Designer focused on crafting modern, responsive, and user-friendly digital experiences that leave a lasting impression.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">
+          <span>View Projects</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <span>Contact Me</span>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="#" class="social-link" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link" aria-label="X/Twitter" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="profile-frame">
+        <div class="profile-ring profile-ring--outer"></div>
+        <div class="profile-ring profile-ring--inner"></div>
+        <div class="profile-photo-wrap">
+          <div class="profile-placeholder">
+            <i class="fas fa-user"></i>
+            <span>Your Photo</span>
+          </div>
+        </div>
+        <div class="floating-badge fb-html">HTML5</div>
+        <div class="floating-badge fb-css">CSS3</div>
+        <div class="floating-badge fb-js">JS</div>
+        <div class="floating-badge fb-java">Java</div>
+        <div class="floating-badge fb-py">Python</div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">Who Am I?</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <div class="about-photo-frame">
+            <div class="about-photo-placeholder">
+              <i class="fas fa-user-circle"></i>
+              <span>Your Photo</span>
+            </div>
+            <div class="about-photo-border"></div>
+            <div class="about-photo-accent"></div>
+          </div>
+        </div>
+
+        <div class="about-right reveal">
+          <p class="about-intro">
+            I am a passionate developer with a strong interest in web technologies, UI/UX design, and creating innovative digital solutions. I enjoy learning new technologies and building projects that solve real-world problems.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-row">
+              <span class="detail-label"><i class="fas fa-graduation-cap"></i> Education</span>
+              <span class="detail-value">Diploma in Computer Engineering (DCME)</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+              <span class="detail-value">Andhra Pradesh, India</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label"><i class="fas fa-briefcase"></i> Focus</span>
+              <span class="detail-value">Web Development & UI/UX Design</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label"><i class="fas fa-language"></i> Languages</span>
+              <span class="detail-value">Telugu, English, Hindi</span>
+            </div>
+          </div>
+
+          <blockquote class="about-quote">
+            "To build innovative software solutions, continuously improve my technical skills, and contribute to impactful projects."
+          </blockquote>
+
+          <div class="about-cta">
+            <a href="#" class="btn-primary" download>
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-row reveal">
+        <div class="stat-card">
+          <div class="stat-number" data-count="10">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="8">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Technologies Learned</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="5">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Certifications Earned</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="1">0</div>
+          <div class="stat-plus"></div>
+          <div class="stat-label">Year of Experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS ═══════════════ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 class="section-title">What I Know</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-layout">
+        <!-- Technical Skills -->
+        <div class="skills-col reveal">
+          <h3 class="skills-col-title"><i class="fas fa-code"></i> Technical Skills</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>HTML5</span><span class="skill-pct">90%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>CSS3</span><span class="skill-pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>JavaScript</span><span class="skill-pct">75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>Java</span><span class="skill-pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>Python</span><span class="skill-pct">65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info"><span>SQL</span><span class="skill-pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-col reveal">
+          <h3 class="skills-col-title"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+          <div class="tools-grid">
+            <div class="tool-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tool-card"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="tool-card"><i class="fas fa-code"></i><span>VS Code</span></div>
+            <div class="tool-card"><i class="fab fa-figma"></i><span>Figma</span></div>
+            <div class="tool-card"><i class="fas fa-palette"></i><span>Canva</span></div>
+            <div class="tool-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="tool-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tool-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          </div>
+
+          <h3 class="skills-col-title mt-2"><i class="fas fa-heart"></i> Soft Skills</h3>
+          <div class="soft-skills">
+            <span class="soft-tag"><i class="fas fa-comments"></i> Communication</span>
+            <span class="soft-tag"><i class="fas fa-users"></i> Teamwork</span>
+            <span class="soft-tag"><i class="fas fa-crown"></i> Leadership</span>
+            <span class="soft-tag"><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+            <span class="soft-tag"><i class="fas fa-clock"></i> Time Management</span>
+            <span class="soft-tag"><i class="fas fa-lightbulb"></i> Creativity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Experience</span>
+        <h2 class="section-title">My Journey</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Industrial Training — Trainee</h3>
+                <span class="timeline-company"><i class="fas fa-building"></i> DRDO</span>
+              </div>
+              <span class="timeline-badge">6 Months</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Assisted in software development tasks and contributed to live project modules.</li>
+              <li>Learned industry-standard workflows and development methodologies.</li>
+              <li>Worked with development tools including Git, VS Code, and collaborative platforms.</li>
+              <li>Participated in agile team sprints and code review sessions.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Software Dev</span><span>Git</span><span>Teamwork</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Hackathon Participant</h3>
+                <span class="timeline-company"><i class="fas fa-trophy"></i> Various Events</span>
+              </div>
+              <span class="timeline-badge">2023–24</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Participated in national-level hackathons and coding competitions.</li>
+              <li>Built rapid prototypes under time constraints with cross-functional teams.</li>
+              <li>Developed problem-solving and collaboration skills under pressure.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Problem Solving</span><span>Rapid Prototyping</span><span>Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Freelance Developer</h3>
+                <span class="timeline-company"><i class="fas fa-laptop-code"></i> Self-Employed</span>
+              </div>
+              <span class="timeline-badge">Ongoing</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Designed and developed responsive websites for local clients.</li>
+              <li>Handled end-to-end project delivery from wireframing to deployment.</li>
+              <li>Maintained client relationships and gathered requirements effectively.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>HTML/CSS</span><span>JavaScript</span><span>Client Work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Projects</span>
+        <h2 class="section-title">Selected Work</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card reveal" data-category="web">
+          <div class="project-img">
+            <div class="project-img-placeholder">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="overlay-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="project-num">01</span>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3 class="project-title">E-Commerce Website</h3>
+            <p class="project-desc">Responsive online shopping platform with product listings, cart functionality, and smooth checkout experience.</p>
+            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="web design">
+          <div class="project-img">
+            <div class="project-img-placeholder">
+              <i class="fas fa-id-card"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="overlay-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="project-num">02</span>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">Personal portfolio showcasing skills, projects, and achievements with a luxury black & gold design theme.</p>
+            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="java">
+          <div class="project-img">
+            <div class="project-img-placeholder">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="overlay-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="project-num">03</span>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Java</span><span>MySQL</span>
+            </div>
+            <h3 class="project-title">Student Management System</h3>
+            <p class="project-desc">Full-stack system for managing student records, academic information, and administrative workflows.</p>
+            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-more reveal">
+        <a href="#" class="btn-outline" target="_blank">
+          <i class="fab fa-github"></i> See All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+  <section class="section certs" id="certs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Certifications</span>
+        <h2 class="section-title">Credentials</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-html5"></i></div>
+          <div class="cert-body">
+            <h4>Web Development Fundamentals</h4>
+            <span class="cert-issuer">Coursera / freeCodeCamp</span>
+          </div>
+          <a href="#" class="cert-view" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-java"></i></div>
+          <div class="cert-body">
+            <h4>Java Programming</h4>
+            <span class="cert-issuer">NPTEL / Oracle Academy</span>
+          </div>
+          <a href="#" class="cert-view" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-python"></i></div>
+          <div class="cert-body">
+            <h4>Python Essentials</h4>
+            <span class="cert-issuer">Cisco NetAcad</span>
+          </div>
+          <a href="#" class="cert-view" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-figma"></i></div>
+          <div class="cert-body">
+            <h4>UI/UX Design Basics</h4>
+            <span class="cert-issuer">Google / Coursera</span>
+          </div>
+          <a href="#" class="cert-view" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-database"></i></div>
+          <div class="cert-body">
+            <h4>SQL & Database Design</h4>
+            <span class="cert-issuer">HackerRank / W3Schools</span>
+          </div>
+          <a href="#" class="cert-view" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">06 / Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <p class="contact-intro">
+            Have a project in mind or want to collaborate? I'd love to hear from you. Whether it's a quick question or a full project discussion — let's talk.
+          </p>
+
+          <div class="contact-info">
+            <a href="mailto:your-email@example.com" class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Email</span>
+                <span class="ci-value">your-email@example.com</span>
+              </div>
+            </a>
+            <a href="tel:+91XXXXXXXXXX" class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-phone"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+91 XXXXX XXXXX</span>
+              </div>
+            </a>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Andhra Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="#" class="cs-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="cs-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="cs-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="cs-link" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <span class="logo-text">DS</span>
+        <div class="logo-dot"></div>
+        <span class="footer-name">Dinesh Sai</span>
+      </div>
+      <p class="footer-tagline">Building the web, one pixel at a time.</p>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <span>© 2025 Dinesh Sai. Crafted with <i class="fas fa-heart" style="color:#D4AF37"></i> & coffee.</span>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
